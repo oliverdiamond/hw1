@@ -23,3 +23,9 @@ body {
     font-style: italic;
     font-weight: bolder;
 }
+
+#statement {
+    font-size: 10vw;
+    font-weight: bold;
+    padding: 20em 0 20em 0;
+}
