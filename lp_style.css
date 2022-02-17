@@ -26,16 +26,19 @@ div {
 div.red{
     background-color: red;
     width: 100%;
+    height: auto;
 }
 
 div.blue{
     background-color: aqua;
     width: 100%;
+    height: auto;
 }
 
 div.yellow{
     background-color: yellow;
     width: 100%;
+    height: auto;
 }
 
 #title {
@@ -67,6 +70,7 @@ hr.divider {
 
 h1.section_title {
     font-family: 'Noto Sans SC', sans-serif;
+    text-align: center;
     font-size: 150%;
     color: yellow;
     padding: 0 0 1em 0;
