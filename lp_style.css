@@ -11,9 +11,10 @@
     Using the Quicksand light 300 font from Google for all body text
 */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300&display=swap');
 
 body {
-    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     color: white;
 
 }
@@ -32,3 +33,23 @@ body {
 
 }
 
+#disclaimer {
+    color: yellow;
+    font-size: smaller;
+    text-align: center;
+}
+
+hr.divider {
+    border-top: 3px solid white;
+    padding: 0 0 3em 0;
+}
+
+div.section {
+    color: coral;
+    text-align: center;
+}
+
+h1.section_title {
+    font-family: 'Lobster', cursive;
+    color: chartreuse;
+}
