@@ -23,18 +23,26 @@ div {
     text-align: center;
 }
 
+div.purple {
+    background-color: rgb(115, 42, 231);
+}
+
 img {
     max-width: 25%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
 }
 
 ul {
     text-align: center;
     list-style-position: inside;
+}
+
+a {
+    color: rgb(238, 85, 111);
+    text-decoration: underline;
 }
 
 #title {
