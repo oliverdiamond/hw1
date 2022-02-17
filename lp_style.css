@@ -23,22 +23,9 @@ div {
     text-align: center;
 }
 
-div.red{
-    background-color: red;
-    width: 100%;
-    height: auto;
-}
-
-div.blue{
-    background-color: aqua;
-    width: 100%;
-    height: auto;
-}
-
-div.yellow{
-    background-color: yellow;
-    width: 100%;
-    height: auto;
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
 
 #title {
@@ -53,7 +40,6 @@ div.yellow{
     font-weight: bold;
     padding: 0.5em 0 0 0;
     text-align: center;
-
 }
 
 #disclaimer {
