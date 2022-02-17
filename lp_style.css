@@ -65,6 +65,11 @@ a {
     text-align: center;
 }
 
+#feature_list {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 hr.divider {
     border-top: 3px solid white;
     margin-bottom: 30px;
