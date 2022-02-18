@@ -42,6 +42,12 @@ div.purple {
     background-color: rgb(115, 42, 231);
 }
 
+.navbar{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .navbar ul {
     list-style: none;
     width: 500px;
