@@ -109,8 +109,7 @@ hr.divider {
     background-color: yellow;
     text-align: center;
     width: 20%;
-    position: absolute;
-    right: 400px;
+    right: 800px;
 }
 
 .navbar a {
