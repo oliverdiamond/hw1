@@ -94,10 +94,8 @@ hr.divider {
 }
 
 .navbar{
-    position:absolute;
     top: 0px;
     right: 0px;
-    padding: 10%;
 }
 
 .navbar ul {
