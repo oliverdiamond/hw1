@@ -50,7 +50,7 @@ div.purple {
 
 .navbar ul {
     list-style: none;
-    width: 500px;
+    width: 250px;
     margin: 0;
     padding: 0;
     background-color: yellow;
@@ -69,10 +69,6 @@ div.purple {
     color: black;
   }
 
-.active {
-    background-color: red;
-    color: white;
-}
 
 
 img {
