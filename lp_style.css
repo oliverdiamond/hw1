@@ -27,7 +27,7 @@ div {
 
 /* Use to make purple background for some chunck of text */
 div.purple {
-    background-color: rgb(115, 42, 231); 
+    background-color: rgb(96, 29, 202); 
 }
 
 /* Center table element, make border white */
@@ -150,6 +150,6 @@ hr.divider {
 /* ID for the unique disclaimer about MyTunes not being a real product */
 #disclaimer {
     color: yellow;
-    font-size: smaller;
+    font-size: xx-large;
     text-align: center;
 }
