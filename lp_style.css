@@ -51,6 +51,7 @@ td{
 /* Center images and make their width 25% of page size */
 img {
     max-width: 25%;
+    min-width: 25%;
     height: auto;
     display: block;
     margin-left: auto;
