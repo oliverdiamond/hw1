@@ -80,11 +80,6 @@ a {
     text-align: center;
 }
 
-#feature_list {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 hr.divider {
     border-top: 3px solid white;
     margin-bottom: 30px;
