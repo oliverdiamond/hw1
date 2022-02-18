@@ -8,6 +8,8 @@ This is a landing page for an online music rating platform created as an exercis
 
 Here is a link to the site: https://oliverdiamond.github.io/comp333_hw1/
 
+Here is a link to the github repo: https://github.com/oliverdiamond/comp333_hw1
+
 The relevant files are: 
 
 1. index.html (contains the html code for the landing page)
