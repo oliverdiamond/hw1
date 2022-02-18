@@ -109,6 +109,8 @@ hr.divider {
     background-color: yellow;
     text-align: center;
     width: 20%;
+    position: absolute;
+    right: 400px;
 }
 
 .navbar a {
@@ -118,23 +120,26 @@ hr.divider {
     text-decoration: none;
 }
 
-/* Makes */
+/* Makes box around link turn white when hovering over the link in the navbar*/
 .navbar a:hover {
     background-color: white;
     color: black;
-  }
+}
 
+/* Class for the MyTunes logo */
 .logo {
     color: yellow;
     font-style: italic;
     font-weight: bolder;
 }
 
+/* Class for name of a person that a quote is attributed to */
 .name {
     color: yellow;
     font-style: italic;
 }
 
+/* ID for the unique massive eye catching statement at the top of the landing page */
 #statement {
     font-size: 8vw;
     font-family: 'Noto Sans SC', sans-serif;
@@ -144,6 +149,7 @@ hr.divider {
     margin-bottom: 100px;
 }
 
+/* ID for the unique disclaimer about MyTunes not being a real product */
 #disclaimer {
     color: yellow;
     font-size: smaller;
