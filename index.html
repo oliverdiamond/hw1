@@ -14,6 +14,7 @@
 <head>
     <meta charset="utf-8">
 
+    <!--Set viewport so users may view this site on a desktop or mobile browser.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta name="description" content="">
@@ -35,8 +36,10 @@
 
 <body>
     
+    <!--Set MyTunes logo in lop left of page-->
     <h1 class="logo">MyTunes</h1>
 
+    <!--Navbar with links to each section of the landing page-->
     <div class = "navbar" id="navbar">
         <ul>
             <li><a href="index.html#our_vision">Our Vision</a></li>
@@ -46,10 +49,13 @@
         </ul>
     </div>
 
+    <!--Big eye catching statement to grab the viewers attention-->
     <h1 id="statement">Welcome to your subjective musical playground</h1>
 
+    <!--Dividing bar-->
     <hr class = "divider">
 
+    <!--First Section called 'our vision'-->
     <h1 class = 'section_title' id="our_vision">Our Vision</h1>
     
     <img src="https://oliverdiamond.github.io/comp333_hw1/imgs/vision.jpg" 
@@ -71,19 +77,24 @@
         </p>
     </div>
 
+    <!--Dividing bar-->
     <hr class = "divider">
 
+    <!--Features Section-->
     <h1 class = 'section_title' id="features">Features</h1>
 
     <img src="https://oliverdiamond.github.io/comp333_hw1/imgs/features.jpg" alt="Image of cassette tape.">
    
     <div>
+        <!-- Use the purple div class for a violet background for the text -->
         <div class="purple">
         <p style="margin-bottom: 20px;">
             <span class="logo">MyTunes</span> is built from the ground up to facilitate thoughtfull discourse in the world of music. <br>
             This makes the inclusion of engaging features which specifically lend themselves to interacting with music essential. <br>
             Explore our list of exciting features below! <br>
         </p>
+
+        <!--Unordered list of features-->
         </div>
         <ul style="text-align: left;">
             <li>Upload, review, and rate your favorite songs on your <span class="logo">MyTunes</span> profile
@@ -102,23 +113,30 @@
 
     <hr class = "divider">
 
+    <!--Testimonials Section-->
     <h1 class = 'section_title' id="testimonials">Testimonials</h1>
 
+    <!--iframe which links to the testimonials.html file, a seperate page containing just product reviews, also included in github repo-->
     <iframe src="testimonials.html" name="frame"></iframe>
     
     <hr class = "divider">
 
+    <!-- Pricing section, contains a table with the included features of different tiers-->
     <h1 class = 'section_title' id="pricing_tiers">Pricing Tiers</h1>
 
+    <!-- Table with different pricing tiers and their features-->
     <table>
         
+        <!-- Top row of table is just headings -->
         <tr>
           <td></td>
-          <th scope="col">Basic</th>
+          <th scope="col">Basic</th> 
           <th scope="col">Plus</th>
           <th scope="col">Premium</th>
         </tr>
        
+        <!-- Each of the following 4 table row elements has a heading for the feature discussed in that row and data
+             entries for each of the pricing tiers-->
         <tr>
           <th scope="row">Unlimited Uploads</th>
           <td>&#10004;</td> <!-- Check symbol-->
@@ -151,6 +169,7 @@
 
     <hr class = "divider">
 
+    <!-- End the landing page with our class disclaimer -->
     <p id="disclaimer"> This site was designed and published as part of the COMP 333 Software 
         Engineering class at Wesleyan University.<br>The described platform is 
         not publicly available but rather is created as a training exercise.
