@@ -47,12 +47,12 @@ div.purple {
     position:absolute;
     top: 0px;
     right: 0px;
+    max-width: 10%;
+    max-height: 20%;
 }
 
 .navbar ul {
     list-style: none;
-    width: 10%;
-    height: 20%;
     margin: 0;
     padding: 0;
     background-color: yellow;
