@@ -54,6 +54,7 @@ div.purple {
     position:absolute;
     top: 0px;
     right: 0px;
+    padding: 0 0 1em 1em;
 }
 
 .navbar ul {
@@ -62,8 +63,7 @@ div.purple {
     padding: 0;
     background-color: yellow;
     text-align: center;
-    width: 20%;
-    height: 30%;
+    width: 150px;
 }
 
 .navbar a {
@@ -133,3 +133,11 @@ h1.section_title {
     padding: 0 0 1em 0;
 }
 
+.name {
+    color: yellow;
+    font-style: italic;
+}
+
+p.quote{
+    padding: 1em 0 1em 0;
+}
