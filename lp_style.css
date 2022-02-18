@@ -8,35 +8,53 @@
 */
 
 /*
-    Using the Quicksand light 300 font from Google for all body text
+    Using the Quicksand light 300 font from Google for all body text except section headers which
+    use the noto sans sc font.
 */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@300&display=swap');
+
 
 body {
-    background-color: black;
-    font-family: 'Quicksand', sans-serif;
-    color: white;
+    background-color: black; /* Make website background black */
+    font-family: 'Quicksand', sans-serif; /* default font is quicksand for all body text */
+    color: white; /* font is white for all body text */
 
 }
 
 div {
-    text-align: center;
+    text-align: center; /* All text in divs is centered by default */
 }
 
+/* Use to make purple background for some chunck of text */
+div.purple {
+    background-color: rgb(115, 42, 231); 
+}
+
+/* Center table element, make border white */
 table{
     margin-left: auto;
     margin-right: auto;
     border: 1px solid white;
 }
 
+/* Make the table headings yellow and center them*/
 th {
     text-align: center;
     color: yellow;
 }
 
+/* Center the text in the table entries */
 td{
     text-align: center;
+}
+
+/*  */
+img {
+    max-width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 iframe {
@@ -46,16 +64,40 @@ iframe {
     border-color: yellow;
 }
 
-div.purple {
-    background-color: rgb(115, 42, 231);
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+h1.section_title {
+    font-family: 'Noto Sans SC', sans-serif;
+    text-align: center;
+    font-size: 150%;
+    color: yellow;
+    padding: 0 0 1em 0;
+}
+
+p.quote{
+    padding: 1em 0 1em 0;
+    font-size: large;
+}
+
+hr.divider {
+    border-top: 3px solid white;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .navbar{
     position:absolute;
     top: 0px;
     right: 0px;
-    display: flex;
-    flex-wrap: nowrap;
+    padding: 10%;
 }
 
 .navbar ul {
@@ -79,30 +121,15 @@ div.purple {
     color: black;
   }
 
-
-
-img {
-    max-width: 25%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul {
-    text-align: center;
-    list-style-position: inside;
-}
-
-a {
-    color: yellow;
-    text-decoration: underline;
-}
-
 .logo {
     color: yellow;
     font-style: italic;
     font-weight: bolder;
+}
+
+.name {
+    color: yellow;
+    font-style: italic;
 }
 
 #statement {
@@ -118,28 +145,4 @@ a {
     color: yellow;
     font-size: smaller;
     text-align: center;
-}
-
-hr.divider {
-    border-top: 3px solid white;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-h1.section_title {
-    font-family: 'Noto Sans SC', sans-serif;
-    text-align: center;
-    font-size: 150%;
-    color: yellow;
-    padding: 0 0 1em 0;
-}
-
-.name {
-    color: yellow;
-    font-style: italic;
-}
-
-p.quote{
-    padding: 1em 0 1em 0;
-    font-size: large;
 }
