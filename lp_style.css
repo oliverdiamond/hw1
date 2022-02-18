@@ -51,7 +51,8 @@ div.purple {
 
 .navbar ul {
     list-style: none;
-    width: 250px;
+    width: 10%;
+    height: 20%;
     margin: 0;
     padding: 0;
     background-color: yellow;
