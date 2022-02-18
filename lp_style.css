@@ -100,14 +100,8 @@ hr.divider {
     margin-top: 30px;
 }
 
-/* Sets navbar location to top right */
-.navbar{
-    top: 0px;
-    right: 0px;
-    padding-left: 80%;
-}
 
-/*  */
+/* Class for navbar with yellow background */
 .navbar ul {
     list-style: none;
     margin: 0;
@@ -119,11 +113,12 @@ hr.divider {
 
 .navbar a {
     display: block;
-    color: black;
-    padding: 8px 8px;
+    color: black; /* Makes navbar links have black text */
+    padding: 8px 8px; /* Makes clicking in the general area of link text send you to link (instead of just directly on text)*/
     text-decoration: none;
-  }
+}
 
+/* Makes */
 .navbar a:hover {
     background-color: white;
     color: black;
