@@ -89,7 +89,7 @@ a {
     text-decoration: underline;
 }
 
-#title {
+.logo {
     color: yellow;
     font-style: italic;
     font-weight: bolder;
